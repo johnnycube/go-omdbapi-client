@@ -24,6 +24,31 @@ First of all you need to get your API key, User key and User name:
 
 * Generate an API key on http://www.omdbapi.com/apikey.aspx
 
+```Go
+package main
+
+import (
+	"fmt"
+
+	"github.com/johnnycube/go-omdbapi-client"
+)
+
+func main() {
+	c := omdb.Client{ApiKey: "YOUR API KEY"}
+
+	movie, err := c.GetMovie("tt1210166")
+	if err != nil {
+		panic(err)
+	}
+
+	// Print the title of the movie
+	fmt.Printf("Movie: %s", movie.Title)
+	// Output: Movie: Moneyball
+}
+```
+
+The complete __documentation__ can be found [here](https://godoc.org/github.com/johnnycube/go-omdbapi-client).
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at github.com/johnnycube/go-omdbapi-client.
