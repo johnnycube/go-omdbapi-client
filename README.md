@@ -49,6 +49,15 @@ func main() {
 
 The complete __documentation__ can be found [here](https://godoc.org/github.com/johnnycube/go-omdbapi-client).
 
+## Available endpoints
+
+The following functions are available at the moment:
+* GetMovie
+* GetSeries
+* GetEpisode
+
+Searching is currently not implemented
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at github.com/johnnycube/go-omdbapi-client.
