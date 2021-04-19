@@ -1,5 +1,6 @@
 package omdb
 
+// OmdbMovie struct store all data of a movie.
 type OmdbMovie struct {
 	Title      string   `json:"Title"`
 	Year       string   `json:"Year"`
@@ -28,6 +29,7 @@ type OmdbMovie struct {
 	Response   string   `json:"Response"`
 }
 
+// OmdbSeries struct store all data of a series.
 type OmdbSeries struct {
 	Title        string   `json:"Title"`
 	Year         string   `json:"Year"`
@@ -53,6 +55,7 @@ type OmdbSeries struct {
 	Response     string   `json:"Response"`
 }
 
+// OmdbEpisode struct store all data of an episode.
 type OmdbEpisode struct {
 	Title      string   `json:"Title"`
 	Year       string   `json:"Year"`
@@ -80,6 +83,7 @@ type OmdbEpisode struct {
 	Response   string   `json:"Response"`
 }
 
+// Rating struct store different kinds of ratings.
 type Rating struct {
 	Source string `json:"Source"`
 	Value  string `json:"Value"`
