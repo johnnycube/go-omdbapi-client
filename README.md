@@ -12,8 +12,8 @@ Install it yourself as:
 
 (optional) To run unit tests:
 
-    $ cd $GOPATH/src/github.com/pioz/tvdb
-    $ TVDB_APIKEY=your_apikey TVDB_USERKEY=your_userkey TVDB_USERNAME=your_username go test -v
+    $ cd $GOPATH/src/github.com/johnnycube/go-omdbapi-client
+    $ OMDB_APIKEY=your_apikey go test -v
 
 ## Usage
 
