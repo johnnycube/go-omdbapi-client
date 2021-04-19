@@ -1,3 +1,5 @@
+[![Test](https://github.com/johnnycube/go-omdbapi-client/actions/workflows/test.yml/badge.svg)](https://github.com/johnnycube/go-omdbapi-client/actions/workflows/test.yml)
+
 # go-omdbapi-client
 
 omdbapi.com client written in go
